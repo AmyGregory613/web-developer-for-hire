@@ -32,10 +32,11 @@ p {
 
 }
 #hi {
+	display: block;
+	margin: auto;
 	background-color: #2EC6B5;
 	width: 90vw;
 	height: 200px;
-	margin: 0px 20px;
 	text-align: center;
 	padding: 50px 0px;
 	color: white;
@@ -90,7 +91,7 @@ h6 {
 .button {
 	border-radius: 15px;
 	border: 6px #2EC6B5;
-	width: 50px;
+	width: 100px;
 	margin: 50px;
 	text-align: center;
 }
@@ -103,29 +104,45 @@ h6 {
 	padding: 10px;
 }
 #startups {
+	clear: both;
+	margin: 80px;
 	position: relative;
-	left: 10px;
+	left: -350px;
 	background-color: #2EC6B5;
 	width: 90vw;
 	height: 200px;
-	margin: 50px 0px;
+	/*margin: 50px 0px;*/
 	text-align: center;
 	padding: 50px 0px;
 	color: white;
 	clear: left;
-	z-index: -1;
+	z-index: 1;
+}
+#su {
+	position: relative;
+	/*margin: auto;*/
+	top: -120px;
+	left: 25px;
+	z-index: 2;
 }
 .su-divs {
-	/*float: left;*/
+	/*clear: both;*/
+	background-color: white;
+	float: left;
 	width: 150px;
 	height: 150px;
 	border-radius: 15px;
 	border: 1px solid #2EC6B5;
 	margin: 20px;
 }
-#su {
-	position: absolute;
-	top: 800px;
-	left: 325px;
-	z-index: 1
+#contact {
+	position: relative;
+	top: 100px;
+	left: 50px;
+	/*display: block;*/
+	/*margin: auto;*/
+	width: 500px;
+	height: 150px;
+	border: black solid 1px;
 }
+
